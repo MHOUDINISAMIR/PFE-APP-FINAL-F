@@ -1,0 +1,31 @@
+.profile-section{
+   width: 100%;
+}
+
+.profile-container{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   align-items: center;
+}
+
+.profile-content{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.profile-content p{
+   font-weight: bold;
+}
+
+.profile-content p span{
+   font-weight: lighter;
+}
+
+ .img-profile{
+    height: 400px;
+    width: 400px;
+    border-radius: 1rem;
+ }

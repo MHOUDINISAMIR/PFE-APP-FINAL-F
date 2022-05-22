@@ -1,0 +1,31 @@
+.singleuser-section{
+   width: 100%;
+}
+
+.singleuser-container{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   align-items: center;
+}
+
+.singleuser-content{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.singleuser-content p{
+   font-weight: bold;
+}
+
+.singleuser-content p span{
+   font-weight: lighter;
+}
+
+ .img-singleuser{
+    height: 400px;
+    width: 400px;
+    border-radius: 1rem;
+ }

@@ -1,0 +1,34 @@
+.home-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 20px;
+}
+.home-section h1:first-child{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+}
+.home-section h1:nth-child(2){
+    font-weight: lighter;
+    font-size: 27px;
+    color: #747474;
+}
+
+/* .home-section h1:nth-child(3){
+    color: #fffdfd;
+} */
+
+@media (max-width: 768px) {
+    .home-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .home-section h1{
+        text-align: center;
+    }
+}
