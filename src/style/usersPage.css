@@ -67,3 +67,17 @@ td, th{
    font-weight: 700;
    color: white;
 }
+
+@media (max-width: 768px){
+   table{
+      width: 50%;
+   }
+
+   .user-container{
+      width: 50%;
+   }
+
+   .users-section{
+      width: 50%;
+   }
+}
